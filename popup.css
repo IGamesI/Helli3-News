@@ -1,0 +1,36 @@
+.news-comp {
+  border-style: solid;
+  border-radius: 10px;
+  width: 260px;
+}
+
+.news-img {
+  width: 250px;
+  padding: 5px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.news-title {
+  font-size: 23px;
+  font-family: "Lalezar", cursive;
+  margin-top: 0px;
+  padding-right: 10px;
+}
+
+.news-desc {
+  font-size: 15px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  padding-right: 10px;
+  margin-top: -15px;
+}
+
+body {
+  display: flex;
+}
+
+.task-contain {
+  border-style: solid;
+  border-radius: 10px;
+  width: 260px;
+}

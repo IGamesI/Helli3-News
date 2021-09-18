@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "202 News",
+    "version": "1.0.0",
+    "description": "Be informed about the latest news of 202 class!",
+    "short_name": "202 News",
+    "permissions": [
+      "tabs"
+  ],
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+        
+        
+      }
+    ],
+    "icons": {
+      "128": "icon_128.png"
+    },
+    "browser_action": {
+      "default_title": "Allemehelli",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "image_16.png",
+        "32": "icon_32.png",
+        "64": "icon_64.png"
+      }
+      
+      
+    
+    }
+
+    
+   }

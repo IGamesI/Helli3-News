@@ -1,7 +1,16 @@
+.news-contain {
+  border-style: solid;
+  border-radius: 10px;
+  width: 260px;
+  padding: 20px;
+}
+
 .news-comp {
   border-style: solid;
   border-radius: 10px;
   width: 260px;
+
+  margin-bottom: 20px;
 }
 
 .news-img {
@@ -23,14 +32,4 @@
   font-family: "IBM Plex Sans Arabic", sans-serif;
   padding-right: 10px;
   margin-top: -15px;
-}
-
-body {
-  display: flex;
-}
-
-.task-contain {
-  border-style: solid;
-  border-radius: 10px;
-  width: 260px;
 }

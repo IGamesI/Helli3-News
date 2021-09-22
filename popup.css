@@ -79,6 +79,8 @@ body {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+
+  display: flex;
 }
 
 /* Tasks text */
@@ -86,4 +88,22 @@ body {
   font-size: 15px;
   font-family: "IBM Plex Sans Arabic", sans-serif;
   padding-right: 10px;
+}
+
+/* Task complete button */
+.task-com-btn {
+  width: 100px;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+/* Task complete image */
+.task-com-img {
+  width: 35px;
+  height: 35px;
 }

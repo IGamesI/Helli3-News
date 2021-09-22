@@ -1,31 +1,31 @@
 body {
-  display: flex;
+  margin: 0px;
 }
-
 /* * News */
-/* News Container */
 .news-contain {
-  border-style: solid;
-  border-radius: 10px;
-  width: 260px;
-  padding: 20px;
+  width: 460px;
+  height: 440px;
+  overflow: auto;
 }
-
+.news-header {
+  text-align: center;
+  font-family: "Lalezar", cursive;
+  font-size: 40px;
+  background-color: lightgray;
+  margin: 0px;
+  margin-bottom: 0px;
+}
 /* News Componnent */
 .news-comp {
   border-style: solid;
   border-radius: 10px;
-  width: 260px;
+  width: 200px;
+  height: 200px;
 
-  margin-bottom: 20px;
-}
-
-/* News Image */
-.news-img {
-  width: 250px;
-  padding: 5px;
-  border-radius: 15px;
-  border-style: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-size: cover;
+  position: relative;
 }
 
 /* News Title */
@@ -34,76 +34,21 @@ body {
   font-family: "Lalezar", cursive;
   margin-top: 0px;
   padding-right: 10px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-/* News Description */
-.news-desc {
-  font-size: 15px;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
-  padding-right: 10px;
-  margin-top: -15px;
+/* * Title colors */
+#title-white {
+  color: white;
 }
 
-/* * Tasks */
-
-/* Tasks Cotnainer */
-.tasks {
+#title-black {
+  color: black;
 }
 
-/* School tasks */
-.tasks-sch {
-  border-style: solid;
-  border-radius: 10px;
-  width: 280px;
-}
-
-/* Personal tasks */
-.tasks-per {
-  border-style: solid;
-  border-radius: 10px;
-  width: 280px;
-}
-
-/* Tasks header title */
-.tasks-title {
-  text-align: center;
-  font-family: "Lalezar", cursive;
-}
-
-/* Task component */
-.task {
-  border-style: solid;
-  border-radius: 10px;
-  width: 260px;
-
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
-  display: flex;
-}
-
-/* Tasks text */
-.task-text {
-  font-size: 15px;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
-  padding-right: 10px;
-}
-
-/* Task complete button */
-.task-com-btn {
-  width: 100px;
-
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-}
-
-/* Task complete image */
-.task-com-img {
-  width: 35px;
-  height: 35px;
+#title-red {
+  color: red;
 }

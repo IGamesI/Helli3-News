@@ -1,5 +1,6 @@
-body {
+html {
   margin: 0px;
+  direction: rtl;
 }
 /* * News */
 .news-contain {
